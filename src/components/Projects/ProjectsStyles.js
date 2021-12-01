@@ -23,9 +23,11 @@ row-gap: 3rem;
 
 `
 export const BlogCard = styled.div`
+  padding: 10px;
   border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
+  height: 400px;
   width: 400px;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
@@ -35,7 +37,7 @@ export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
-
+  margin-top: 24px;
 `;
 
 
@@ -44,27 +46,9 @@ export const HeaderThree = styled.h3`
   letter-spacing: 2px;
   color: #9cc9e3;
   padding: .5rem 0;
+  margin-bottom: 4px;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 `;
-
-export const Hr = styled.hr`
-  width: 50px;
-  height: 3px;
-  margin: 20px auto;
-  border: 0;
-  background: #d0bb57;
-`;
-
-export const Intro = styled.div`
-  width: 170px;
-  margin: 0 auto;
-  color: #dce3e7;
-  font-family: 'Droid Serif', serif;
-  font-size: 13px;
-  font-style: italic;
-  line-height: 18px;
-`;
-
 
 export const CardInfo = styled.p`
   width: 100%;
@@ -75,38 +59,17 @@ export const CardInfo = styled.p`
   text-align: justify;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding:.3rem
-  
-}
-`;
-
-
-export const UtilityList = styled.ul`
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-  justify-content: space-around;
-  margin: 2.5rem 0;
-`;
-
-export const ExternalLinks = styled.a`
-color:#d4c0c0;
-font-size: 1.6rem;
-padding:1rem 1.5rem;
-background: #6b3030;
-border-radius: 15px;
-transition: 0.5s;
-&:hover{
-  background: #801414;
-
-}
+  }
 `;
 
 export const TagList = styled.ul`
 display: flex;
 justify-content: space-around;
 padding: 2rem;
+flex-flow: wrap;
 `
 export const Tag = styled.li`
 color: #d8bfbf;
 font-size: 1.5rem;
+margin: 10px;
 `

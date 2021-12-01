@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-import { DiCssdeck } from 'react-icons/di';
+import { GiNinjaHead } from 'react-icons/gi';
 
 import { Container, Div1, Div2, Div3, Span, NavLink, SocialIcons } from './HeaderStyles';
 
@@ -10,7 +10,7 @@ const Header = () =>  (
     <Div1>
       <Link href="/">
         <a style={{ display: 'flex', alignItems: 'center', color:"white" }}>
-          <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+          <GiNinjaHead size="3rem" /> <Span>Alec Thavychith</Span>
         </a>
       </Link>
     </Div1>

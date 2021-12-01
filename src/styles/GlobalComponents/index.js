@@ -1,5 +1,9 @@
 import styled from 'styled-components'
 
+export const AlignCenter = styled.div`
+  text-align: center;
+`;
+
 export const Section = styled.section`
   display: ${(props) => props.grid ? "grid" : "flex" };
   flex-direction: ${(props) => props.row ? "row" : "column" };
@@ -23,11 +27,10 @@ export const Section = styled.section`
     flex-direction: column;
   }
 `
-
 export const SectionTitle = styled.h2`
   font-weight: 800;
   font-size: ${(props) => props.main ? '65px' : '56px'};
-  line-height: ${(props) => props.main ? '72px' : '56px'};
+  line-height: ${(props) => props.main ? '72px' : '60px'};
   width: max-content;
   max-width: 100%;
   background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
@@ -53,7 +56,6 @@ export const SectionTitle = styled.h2`
     max-width: 100%;
   }
 `
-
 export const SectionText = styled.p`
   max-width: 800px;
   font-size: 18px;
@@ -75,9 +77,8 @@ export const SectionText = styled.p`
     padding-bottom: 16px;
   }
 `
-
 export const SectionDivider = styled.div`
-  width: 64px;
+  width: 20%;
   height: 6px;
   border-radius: 10px;
   background-color: #fff;
@@ -164,7 +165,6 @@ export const SecondaryBtn = styled.button`
     line-height: 16px;
   }
 `
-
 export const ButtonBack = styled.div`
   width: ${({ alt }) => alt ? '150px' : '262px'};
   height: ${({ alt }) => alt ? '52px' : '64px'};
@@ -197,7 +197,6 @@ export const ButtonBack = styled.div`
     margin-bottom: ${({ alt }) => alt ? '0' : '32px'};
   }
 `
-
 export const ButtonFront = styled.button`
   border: none;
   border-radius: 50px;
@@ -243,7 +242,6 @@ export const ButtonFront = styled.button`
     font-size: 14px;
   }
 `
-
 export const LinkContainer = styled.div`
   margin-left: ${({ large }) => large ? '24px' : '16px'};
   transition: 0.3s ease;
@@ -265,7 +263,6 @@ export const LinkContainer = styled.div`
     margin-left: ${({ large }) => large ? '0' : '8px'};
   }
 `
-
 export const LinkIconImg = styled.div`
   display: flex;  
   height: ${({ large }) => large ? '32px' : '24px'};
