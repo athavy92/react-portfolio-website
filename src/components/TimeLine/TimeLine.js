@@ -32,8 +32,8 @@ const Timeline = () => {
     }
   }
 
-  // snap back to beginning of scroll when window is resized
-  // avoids a bug where content is covered up if coming from smaller screen
+  // Snap back to beginning of scroll when window is resized
+  // Avoids a bug where content is covered up if coming from smaller screen
   useEffect(() => {
     const handleResize = () => {
       scroll(carouselRef.current, 0);
@@ -46,7 +46,12 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+        My true Software Engineer started in 2019 when I took a "leap of faith" and a career shift to start learning and working at Revature. At Revature, I learned Full Stack Software Development using HTML/CSS, Typescript, 
+        Java, and AWS. Upon completion of the coding boot camp, I was offered a contractor position with Cognizant around November 2019. <br />
+        Since then, I have been working as a part of one of UPS's applications development team. I have most worked mostly on the Front End, using Angular, but have experience working with Java, SQL, and Python. 
+        In addition to development work, our team follows an Agile methodology, which involves following Done Definition and attending stand ups, Sprint Planning, Sprint Reviews, and Sprint Retrospectives. 
+        As a Front End Developer, I work closely with the UI/UX team to translate mockups to a functional and responsive web application that satisfies the needs of the business and Product Owners. <br />
+        For my next role, I am looking to work on applications at a larger scale and continue learning more technologies.   
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
@@ -112,7 +117,6 @@ const Timeline = () => {
           );
         })}
       </CarouselButtons>
-      <SectionDivider />
     </Section>
   );
 };

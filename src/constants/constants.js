@@ -1,9 +1,9 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
+    title: 'Balance Scorecard',
+    description: "A companion app used by managers to monitor metrics and analyze data within each department, allowing them to make informed decisions to minimize costs.",
+      image: '',
+      tags: ['Angular', 'Spring', 'Web sockets'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 0,
@@ -38,9 +38,11 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2008, text: `Customized Myspace page with HTML & CSS`, },
+  { year: 2015, text: `Graduated East Carolina University with a Bachelor's of Science degree in Exercise Science`, },
+  { year: 2018, text: `Decided to continue learning Front End Development again`, },
+  { year: 2019, text: `Moved to Reston, VA to go through the Revature coding boot camp, following the Full Stack Development curriculum`, },
+  { year: 2019, text: `Completed Revature boot camp and started work with Cognizant`, },
+  { year: 2019, text: `Work at UPS as a contractor through Cognizant as a Revature associate`, },
+  { year: 2021, text: `Revature was bought out by Cognizant and continued working as a contractor` }
 ];

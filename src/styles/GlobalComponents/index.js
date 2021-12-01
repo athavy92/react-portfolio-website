@@ -56,8 +56,8 @@ export const SectionTitle = styled.h2`
 
 export const SectionText = styled.p`
   max-width: 800px;
-  font-size: 24px;
-  line-height: 40px;
+  font-size: 18px;
+  line-height: 30px;
   font-weight: 300;
   padding-bottom: 3.6rem;
   color: rgba(255, 255, 255, 0.5);
@@ -77,7 +77,6 @@ export const SectionText = styled.p`
 `
 
 export const SectionDivider = styled.div`
-
   width: 64px;
   height: 6px;
   border-radius: 10px;

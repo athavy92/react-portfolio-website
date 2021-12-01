@@ -8,8 +8,7 @@ const Technologies = () =>  (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world.
-      From Back-end To Design
+      My first experience in working with web development started with HTML/CSS to build static websites. At Revature, I learned Full Stack development with Angular, Spring, and Java.
     </SectionText>
     <List>
       <ListItem>
@@ -19,8 +18,10 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experiece with <br />
-            React.js
+            Angular <br />
+            React <br />
+            HTML/CSS <br />
+            TypeScript
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -31,8 +32,10 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node and Databases
+            Spring <br />
+            Java <br />
+            Microsoft SQL <br />
+            Python
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -41,10 +44,12 @@ const Technologies = () =>  (
           <DiZend size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Deployment and Other Tools</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            tools like Figma
+            Red Hat Openshift <br />
+            AWS <br />
+            Web Sockets <br />
+            JFrog Artifactory <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>

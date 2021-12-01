@@ -9,7 +9,7 @@ export const Layout = ({children}) => {
     <Container>
      <Header/>
      <main>{children}</main> 
-     <Footer/>
+     <Footer id="contact-footer"/>
     </Container>
   )
 }
